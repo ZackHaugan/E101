@@ -22,6 +22,8 @@
     {"name":"obj_blackbox","order":7,"path":"objects/obj_blackbox/obj_blackbox.yy",},
     {"name":"obj_y_axis","order":1,"path":"objects/obj_y_axis/obj_y_axis.yy",},
     {"name":"TextboxPart","order":4,"path":"sprites/TextboxPart/TextboxPart.yy",},
+    {"name":"s_slider_button","order":9,"path":"sprites/s_slider_button/s_slider_button.yy",},
+    {"name":"s_slider_bar","order":8,"path":"sprites/s_slider_bar/s_slider_bar.yy",},
     {"name":"Pufferfish","order":2,"path":"sprites/Pufferfish/Pufferfish.yy",},
     {"name":"BlackBox","order":6,"path":"sprites/BlackBox/BlackBox.yy",},
     {"name":"Fn0","order":7,"path":"sprites/Fn0/Fn0.yy",},
@@ -31,5 +33,6 @@
     {"name":"Vertical_Line","order":1,"path":"sprites/Vertical_Line/Vertical_Line.yy",},
     {"name":"obj_txtbx_part2","order":6,"path":"objects/obj_txtbx_part2/obj_txtbx_part2.yy",},
     {"name":"obj_obstacle1","order":4,"path":"objects/obj_obstacle1/obj_obstacle1.yy",},
+    {"name":"obj_slider_parent","order":9,"path":"objects/obj_slider_parent/obj_slider_parent.yy",},
   ],
 }
