@@ -58,10 +58,8 @@ if(collision > 0 && global.nonRepeat) {
 	collision = 0;
 	global.nonRepeat = false;
 }
-//code below used for testing to show numCollisions
-/*if(message = "Collisions") {
-	draw_text(380, 700, string(global.numCollisions));
-}*/
+//display numCollisions
+draw_text(30, 143, "Collisions: " + string(global.numCollisions));
 if(message = "x^3") {
 	for(i = 0; i < 40; i++) {
 		draw_line_width(34.15*i, 380-5*power(-20+i, 3), 34.15*(i+1), 380-5*power(-20 + i + 1, 3), 10);
