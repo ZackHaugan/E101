@@ -6,3 +6,7 @@ if(message = "0") {
 else {
 	//obj_fn_0.visible = false;
 }
+
+if (message = "") {
+	global.nonRepeat = true;
+}
