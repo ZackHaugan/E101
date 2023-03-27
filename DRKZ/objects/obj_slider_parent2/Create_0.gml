@@ -2,7 +2,7 @@
 
 colors = [ $001EA6, $008FA6, $51A600, $A62D00 ];
 // 1 for red, 2 for yellow, 3 for green, 4 for blue
-color_ = 1;
+color_ = 2;
 // the minimum value of the slider output
 minimum_ = -5;
 // the maximum value of the slider output
@@ -10,7 +10,7 @@ maximum_ = 5;
 // starting value of the slider (make sure it is a possible value)
 start_ = 0;
 // pretext (text to show before the value)
-pretext_ = "m = ";
+pretext_ = "b = ";
 
 
 
