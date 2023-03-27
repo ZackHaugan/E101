@@ -16,6 +16,7 @@ pretext_ = "b = ";
 
 
 output_ = start_;
+global.varB = output_;
 value_ = (start_-minimum_)/(maximum_-minimum_);
 text_color_ = colors[ color_ - 1];
 max_value_ = 1;

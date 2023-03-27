@@ -7,3 +7,7 @@ global.numCollisions = 0;
   (drawing function means numCollisions would otherwise count multiple line fragments of one function
   as multiple collisions) */
 global.nonRepeat = true;
+
+global.varM = 0;
+
+global.varB = 0;
