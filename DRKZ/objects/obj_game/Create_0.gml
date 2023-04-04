@@ -11,3 +11,5 @@ global.nonRepeat = true;
 global.varM = 0;
 
 global.varB = 0;
+
+var canRepeat = true;
