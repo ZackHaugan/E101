@@ -14,8 +14,10 @@ if (mouse_check_button_released(mb_left))
 
 	if (hovering) 
 	{
-		//global.display = false;
-		//global.retry = false;
+		if room_next(room) != -1
+		{
+			room_goto_next();
+		}
 	}
 	
 }

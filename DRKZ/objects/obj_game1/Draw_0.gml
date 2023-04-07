@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 draw_set_color(c_red);
-var bPast = 0;
-var mPast = 0;
+var bPast = 10;
+var mPast = 10;
 //draw_line_width(-1, 380, 1365, 380, 10);
 if(global.display) {
 	for(i = 0; i < 40; i++) {
@@ -19,7 +19,7 @@ if(global.display) {
 	}
 	//if bPast or mPast nonzero, add a collision
 	//if bPast and mPast 0, make possible to add collision again
-	if((bPast != 0 || mPast != 0) && global.canRepeat) {
+	if((bPast != 10 || mPast != 10) && global.canRepeat) {
 		global.numCollisions++;
 		//variable to show button to retry set to true
 		global.retry = true;
@@ -28,12 +28,8 @@ if(global.display) {
 		
 		global.nextLvlBtn = false;
 	}
-	//else show button for progressing to next level
-	/*else {
-		global.nextLvlBtn = true;
-	}*/
 
-	if(bPast = 0 && mPast = 0) {
+	if(bPast = 10 && mPast = 10) {
 		global.canRepeat = true;
 		global.nextLvlBtn = true;
 	}
