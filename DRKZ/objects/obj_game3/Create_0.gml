@@ -22,4 +22,8 @@ global.retry = false;
 
 global.nextLvlBtn = false;
 
+global.scoreBtn = false;
+
 global.canRepeat = true;
+
+global.levelThreeScore = 0;

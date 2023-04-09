@@ -7,15 +7,15 @@ var bPast = 10;
 var cPast= 10;
 var dPast = 10;
 
-var n = 0.55;
+var n = 0.55*global.varB*.5;
 
 //draw_line_width(-1, 380, 1365, 380, 10);
 if(global.display) {
-	for(i = 0; i < 40; i++) {
+	for(i = 0; i < 80; i++) {
 		//34.15 * 40 = 1366 (divides screen into 40 pieces to draw parts of the function)
-		draw_line_width(34.15*i, (380-global.varA*31*sin(-20*n+n*i -1.8*global.varC)-32*global.varD), 34.15*(i+1), (380-global.varA*31*sin(-20*n+n*(i + 1) - 1.8*global.varC)-32*global.varD), 10);
+		draw_line_width(17.075*i, (380-global.varA*31*sin(-40*n+n*i - global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n+n*(i + 1) - global.varC)-32*global.varD), 10);
 		//Detect collision with obj_obstacle1 using collision_line
-		var _hit = collision_line(34.15*i, (380-global.varA*31*sin(-20*n+n*i-1.8*global.varC)-32*global.varD), 34.15*(i+1), (380-global.varA*31*sin(-20*n + n*(i + 1) - 1.8*global.varC)-32*global.varD), obj_obstacle1, true, false);
+		var _hit = collision_line(17.075*i, (380-global.varA*31*sin(-40*n+n*i-global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n + n*(i + 1) - global.varC)-32*global.varD), obj_obstacle1, true, false);
 		with (_hit) {
 			//draw_text(380, 700, "Collision Detected" + string(global.numCollisions)); //used for testing
     		aPast = global.varA;
@@ -38,7 +38,8 @@ if(global.display) {
 
 	if(aPast = 10 && bPast = 10 && cPast = 10 && dPast = 10) {
 		global.canRepeat = true;
-		global.nextLvlBtn = true;
+		global.scoreBtn = true;
+		global.levelThreeScore = global.numCollisions;
 	}
 }
 

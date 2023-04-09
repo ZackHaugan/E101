@@ -34,6 +34,7 @@ if(global.display) {
 	if(aPast = 10 && hPast = 10 && kPast = 10) {
 		global.canRepeat = true;
 		global.nextLvlBtn = true;
+		global.levelTwoScore = global.numCollisions;
 	}
 }
 

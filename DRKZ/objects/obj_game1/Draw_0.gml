@@ -32,6 +32,7 @@ if(global.display) {
 	if(bPast = 10 && mPast = 10) {
 		global.canRepeat = true;
 		global.nextLvlBtn = true;
+		global.levelOneScore = global.numCollisions;
 	}
 }
 
