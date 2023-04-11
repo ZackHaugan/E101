@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_obstacle1",
+  "name": "obj_obstacle_parent",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,10 +9,7 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": {
-    "name": "obj_obstacle_parent",
-    "path": "objects/obj_obstacle_parent/obj_obstacle_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Pufferfish",
-    "path": "sprites/Pufferfish/Pufferfish.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

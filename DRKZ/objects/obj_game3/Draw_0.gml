@@ -15,7 +15,7 @@ if(global.display) {
 		//34.15 * 40 = 1366 (divides screen into 40 pieces to draw parts of the function)
 		draw_line_width(17.075*i, (380-global.varA*31*sin(-40*n+n*i - global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n+n*(i + 1) - global.varC)-32*global.varD), 10);
 		//Detect collision with obj_obstacle1 using collision_line
-		var _hit = collision_line(17.075*i, (380-global.varA*31*sin(-40*n+n*i-global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n + n*(i + 1) - global.varC)-32*global.varD), obj_obstacle1, true, false);
+		var _hit = collision_line(17.075*i, (380-global.varA*31*sin(-40*n+n*i-global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n + n*(i + 1) - global.varC)-32*global.varD), obj_obstacle_parent, true, false);
 		with (_hit) {
 			//draw_text(380, 700, "Collision Detected" + string(global.numCollisions)); //used for testing
     		aPast = global.varA;

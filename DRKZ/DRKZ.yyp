@@ -77,6 +77,7 @@
     {"id":{"name":"obj_slider_r3_a","path":"objects/obj_slider_r3_a/obj_slider_r3_a.yy",},},
     {"id":{"name":"obj_slider_r2_a","path":"objects/obj_slider_r2_a/obj_slider_r2_a.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"obj_obstacle_parent","path":"objects/obj_obstacle_parent/obj_obstacle_parent.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
