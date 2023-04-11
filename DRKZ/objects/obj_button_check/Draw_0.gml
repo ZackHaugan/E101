@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (!global.nextLvlBtn) {
+if (!global.nextLvlBtn && !global.scoreBtn) {
 	draw_self();
 
 	//draw_set_halign(fa_center);

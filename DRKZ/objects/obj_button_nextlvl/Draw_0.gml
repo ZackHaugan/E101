@@ -12,4 +12,6 @@ if ( global.nextLvlBtn) {
 if ( global.scoreBtn ) {
 	draw_self();
 	draw_text(195, 585, " View Score" );
+	//global.display = false;
+	//global.retry = false;
 }
