@@ -12,7 +12,7 @@ var n = 0.55*global.varB*.5;
 //draw_line_width(-1, 380, 1365, 380, 10);
 if(global.display) {
 	for(i = 0; i < 80; i++) {
-		//34.15 * 40 = 1366 (divides screen into 40 pieces to draw parts of the function)
+		//17.075 * 80 = 1366 (divides screen into 40 pieces to draw parts of the function)
 		draw_line_width(17.075*i, (380-global.varA*31*sin(-40*n+n*i - global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n+n*(i + 1) - global.varC)-32*global.varD), 10);
 		//Detect collision with obj_obstacle1 using collision_line
 		var _hit = collision_line(17.075*i, (380-global.varA*31*sin(-40*n+n*i-global.varC)-32*global.varD), 17.075*(i+1), (380-global.varA*31*sin(-40*n + n*(i + 1) - global.varC)-32*global.varD), obj_obstacle_parent, true, false);

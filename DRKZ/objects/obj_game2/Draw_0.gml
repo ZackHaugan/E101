@@ -7,11 +7,11 @@ var hPast = 10;
 var kPast= 10;
 //draw_line_width(-1, 380, 1365, 380, 10);
 if(global.display) {
-	for(i = 0; i < 40; i++) {
+	for(i = 0; i < 80; i++) {
 		//34.15 * 40 = 1366 (divides screen into 40 pieces to draw parts of the function)
-		draw_line_width(34.15*i, (385-global.varA*10*power(-20+i-1.8*global.varH, 2)-32*global.varK), 34.15*(i+1), (385-global.varA*10*power(-20 + i + 1 - 1.8*global.varH, 2)-32*global.varK), 10);
+		draw_line_width(17.075*i, (382-global.varA*2.6*power(-39.8+i-3.65*global.varH, 2)-31.3*global.varK), 17.075*(i+1), (382-global.varA*2.6*power(-39.8 + i + 1 - 3.65*global.varH, 2)-31.3*global.varK), 10);
 		//Detect collision with obj_obstacle1 using collision_line
-		var _hit = collision_line(34.15*i, (385-global.varA*10*power(-20+i-1.8*global.varH, 2)-32*global.varK), 34.15*(i+1), (380-global.varA*10*power(-20 + i + 1 - 1.8*global.varH, 2)-32*global.varK), obj_obstacle_parent, true, false);
+		var _hit = collision_line(17.075*i, (385-global.varA*10*power(20+i-1.8*global.varH, 2)-32*global.varK), 17.075*(i+1), (385-global.varA*10*power(20 + i + 1 - 1.8*global.varH, 2)-32*global.varK), obj_obstacle_parent, true, false);
 		with (_hit) {
 			//draw_text(380, 700, "Collision Detected" + string(global.numCollisions)); //used for testing
     		aPast = global.varA;

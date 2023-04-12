@@ -1,4 +1,4 @@
 /// @description initialize variables (customization)
 
-title_ = "Quadratic Function Practice";
+title_ = "Trigonometric Function Practice";
 
