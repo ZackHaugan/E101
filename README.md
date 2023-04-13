@@ -3,8 +3,10 @@
 2. Open the executable file that the previous step will download, and follow the steps to install the software. This may open the GameMaker Studio application automatically. If this happens, you may close the software for now.
 3. Download the following zip file, which contains all of the game files for our game, Functions and Fishes. Once you have selected a place to download this zip file, extract the file by right clicking the zip folder, and clicking extract.
 4. Once you have extracted the folder, open the unzipped version of the folder and double-click the "DRKZ.yyp" file as shown below:
+
 ![Which file to click on](https://i.imgur.com/t1WZWx5.png)
 5. Once the GameMaker software loads, you should see the game developer menu. Click on the "Run" button as shown below to start the game:
+
 ![how to run the game](https://i.imgur.com/YMKxXgx.png)
 
 Once you click on run, the game should load in this browser as a new tab. However, if it doesn't, try either clicking on the "Run" button again or opening a new browser. 
