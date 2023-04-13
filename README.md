@@ -5,6 +5,7 @@
 4. Once you have extracted the folder, open the unzipped version of the folder and double-click the "DRKZ.yyp" file as shown below:
 
 ![Which file to click on](https://i.imgur.com/t1WZWx5.png)
+
 5. Once the GameMaker software loads, you should see the game developer menu. Click on the "Run" button as shown below to start the game:
 
 ![how to run the game](https://i.imgur.com/YMKxXgx.png)
