@@ -16,7 +16,7 @@ if ( room_next(room) = -1 ) {
 	var yVal = 225;
 	for( i = 0; i < 5; i++ ) {
 		if(global.leaderboard[i] != 9999) {
-			var Lmins = string_format(global.leaderboard[i] / 100, 2, 0);
+			var Lmins = string_format(floor(global.leaderboard[i] / 100), 2, 0);
 			var Lsecs = string_format(global.leaderboard[i] % 100, 2, 0);
 			draw_text(90, yVal + 25*i, Lmins + ":" + Lsecs);
 		}

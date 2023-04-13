@@ -25,7 +25,7 @@ if(global.display) {
 		}
 	}
 	//if bPast or mPast nonzero, add a collision
-	//if bPast and mPast 0, make possible to add collision again
+	//if bPast and mPast 10, make possible to add collision again
 	if((aPast != 10 || bPast != 10 || cPast != 10 || dPast != 10) && global.canRepeat) {
 		global.numCollisions++;
 		//variable to show button to retry set to true
@@ -34,6 +34,8 @@ if(global.display) {
 		global.canRepeat = false;
 		
 		global.nextLvlBtn = false;
+		
+		global.scoreBtn = false;
 	}
 
 	if(aPast = 10 && bPast = 10 && cPast = 10 && dPast = 10) {
