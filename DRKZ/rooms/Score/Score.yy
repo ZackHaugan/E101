@@ -1,17 +1,17 @@
 {
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
-  "name": "Room4",
+  "name": "Score",
   "creationCodeFile": "${project_dir}/rooms/Room4/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_6C9E7C39","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_506A6B66","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_7B8B0445","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_3D8A4354","path":"rooms/Room4/Room4.yy",},
-    {"name":"inst_4F4EE15C","path":"rooms/Room4/Room4.yy",},
+    {"name":"inst_6C9E7C39","path":"rooms/Score/Score.yy",},
+    {"name":"inst_506A6B66","path":"rooms/Score/Score.yy",},
+    {"name":"inst_7B8B0445","path":"rooms/Score/Score.yy",},
+    {"name":"inst_3D8A4354","path":"rooms/Score/Score.yy",},
+    {"name":"inst_4F4EE15C","path":"rooms/Score/Score.yy",},
   ],
   "isDnd": false,
   "layers": [

@@ -12,9 +12,9 @@ global.varA = 0;
 
 global.varB = 0;
 
-global.varC = 0;
+global.varH = 0;
 
-global.varD = 0;
+global.varK = 0;
 
 global.display = false;
 
@@ -22,10 +22,8 @@ global.retry = false;
 
 global.nextLvlBtn = false;
 
-global.scoreBtn = false;
-
 global.canRepeat = true;
 
-global.levelThreeScore = 0;
+global.scoreBtn = false;
 
-global.train = false;
+global.train = true;

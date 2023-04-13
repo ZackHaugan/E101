@@ -27,3 +27,5 @@ global.canRepeat = true;
 global.scoreBtn = false;
 
 global.levelOne_TwoScore = 0;
+
+global.train = false;

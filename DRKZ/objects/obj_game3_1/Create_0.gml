@@ -28,4 +28,4 @@ global.canRepeat = true;
 
 global.levelThreeScore = 0;
 
-global.train = false;
+global.train = true;
