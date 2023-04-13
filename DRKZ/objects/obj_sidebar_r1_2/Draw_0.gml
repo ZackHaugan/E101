@@ -9,4 +9,4 @@ draw_set_valign(fa_middle);
 draw_text_color(sprite_width/2, 20, title_, $000000, $000000, $000000, $000000, 1);
 
 // draw general form
-draw_text_color(sprite_width/2, 100, "y = a|b(x-h)| + k", $000000, $000000, $000000, $000000, 1);
+draw_text_color(sprite_width/2, 100, "y = a|x-h| + k", $000000, $000000, $000000, $000000, 1);
