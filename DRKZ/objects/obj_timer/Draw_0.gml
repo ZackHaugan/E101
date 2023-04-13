@@ -4,7 +4,7 @@
 var Smins = string_format(global.minutes, 2, 0);
 var Ssecs = string_format(global.seconds, 2, 0);
 
-if ( room_next(room) != -1 ) {
+if ( room_next(room) != -1 && room_previous(room) != -1) {
 draw_text(190, 750, "Time: " + Smins + ":" + Ssecs);
 }
 
