@@ -3,6 +3,8 @@
 
 draw_self();
 
+draw_set_halign(0);
+draw_set_valign(0);
 draw_set_color(c_black);
 
 draw_text_transformed(400, 150, "Welcome to Functions and Fishes!", 2, 2, 0);
