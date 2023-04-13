@@ -1,0 +1,3 @@
+/*room_persistent = true;
+
+*/
