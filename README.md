@@ -6,7 +6,7 @@
 
 ![Which file to click on](https://i.imgur.com/t1WZWx5.png)
 
-5. Once the GameMaker software loads, you should see the game developer menu. Click on the "Run" button as shown below to start the game:
+5. Once the GameMaker software loads, you should see the game developer menu. Click on the "Run" button as shown below to start the game (note that this step may take some time, so give it a few seconds):
 
 ![how to run the game](https://i.imgur.com/YMKxXgx.png)
 
