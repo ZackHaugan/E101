@@ -1,7 +1,7 @@
 # How to Download and Play:
 1. Go to [this link](https://gamemaker.io/en/download) to download GameMaker from the official website. Make sure to select the appropriate operating system (Windows / Mac) for your computer
 2. Open the executable file that the previous step will download, and follow the steps to install the software. This may open the GameMaker Studio application automatically. If this happens, you may close the software for now.
-3. Click on the green "Code" button near the top of this screen, and choose "Download Zip" from teh drop down menu. This zip file contains all of the game files for our game, Functions and Fishes. Once you have selected a place to download this zip file, extract the file by right clicking the zip folder, and clicking extract.
+3. Click on the green "Code" button near the top of this screen, and choose "Download Zip" from the drop down menu. This zip file contains all of the game files for our game, Functions and Fishes. Once you have selected a place to download this zip file, extract the file by right clicking the zip folder, and clicking extract.
 4. Once you have extracted the folder, open the unzipped version of the folder and double-click the "DRKZ.yyp" file as shown below:
 
 ![Which file to click on](https://i.imgur.com/t1WZWx5.png)
